@@ -5,29 +5,29 @@ image = Image.open('example.jpg')
 
 st.image(image, caption='이미지1')
 
-image = Image.open('example1.jpg')
+image1 = Image.open('example1.jpg')
 
-st.image(image, caption='이미지2')
+st.image(image1, caption='이미지2')
 
-image = Image.open('example2.jpg')
+image2 = Image.open('example2.jpg')
 
-st.image(image, caption='이미지3')
+st.image(image2, caption='이미지3')
 
-image = Image.open('example.jpg')
+image3 = Image.open('example.jpg')
 
-st.image(image, caption='width=100', width=100)
+st.image(image3, caption='width=100', width=100)
 
-image = Image.open('example.jpg')
+image4 = Image.open('example.jpg')
 
-st.image(image, caption='auto', use_column_width='auto')
+st.image(image4, caption='auto', use_column_width='auto')
 
-image = Image.open('example1.jpg')
+image5 = Image.open('example1.jpg')
 
-st.image(image, caption='always', use_column_width='auto')
+st.image(image5, caption='always', use_column_width='auto')
 
-image = Image.open('example2.jpg')
+image6 = Image.open('example2.jpg')
 
-st.image(image, caption='never', use_column_width='auto')
+st.image(image6, caption='never', use_column_width='auto')
 
 
 
