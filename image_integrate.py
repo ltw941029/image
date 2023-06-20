@@ -39,3 +39,8 @@ from PIL import Image
 image8 = Image.open('example.jpg')
 
 st.image(image8, caption='clamp=True', width=200, clamp=True)
+
+image9 = Image.open('example.jpg')
+
+st.image(image8, caption='example', width=200, use_column_width='auto')
+
