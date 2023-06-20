@@ -3,4 +3,5 @@ from PIL import Image
 
 image = Image.open('example.jpg')
 
-st.image(image, caption='이미지1')
+st.image(image, caption='image1')
+
