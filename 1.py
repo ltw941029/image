@@ -1,14 +1,33 @@
 import streamlit as st
-import numpy as np
 from PIL import Image
-
-
-a=np.array(10,10,1)
-st.image(a,caption='단색 이미지')
-st.image((10,10,3),caption='컬러 이미지')
-st.image((10,10,4),caption='RGBA 이미지')
-
 
 image = Image.open('example.jpg')
 
-st.image(image, caption='로컬 이미지')
+st.image(image, caption='이미지1')
+
+image = Image.open('example1.jpg')
+
+st.image(image, caption='이미지2')
+
+image = Image.open('example2.jpg')
+
+st.image(image, caption='이미지3')
+
+image = Image.open('example.jpg')
+
+st.image(image, caption='width=100', width=100)
+
+image = Image.open('example.jpg')
+
+st.image(image, caption='auto', use_column_width='auto')
+
+image = Image.open('example1.jpg')
+
+st.image(image, caption='always', use_column_width='auto')
+
+image = Image.open('example2.jpg')
+
+st.image(image, caption='never', use_column_width='auto')
+
+
+
