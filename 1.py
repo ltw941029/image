@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.image(10,10,1,caption='단색 이미지')
+st.image([10,10,1],caption='단색 이미지')
 st.image((10,10,3),caption='컬러 이미지')
 st.image((10,10,4),caption='RGBA 이미지')
 
