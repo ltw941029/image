@@ -1,8 +1,9 @@
 import streamlit as st
-from PIL import Image
 import numpy as np
+from PIL import Image
 
-a=np.array([10,10,1])
+
+a=np.array(10,10,1)
 st.image(a,caption='단색 이미지')
 st.image((10,10,3),caption='컬러 이미지')
 st.image((10,10,4),caption='RGBA 이미지')
